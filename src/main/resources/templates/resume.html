@@ -2,10 +2,13 @@
 <html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
+    <link th:href="@{/pages/resume/styling.css}" rel="stylesheet" type="text/css"/>
     <title>CV</title>
 </head>
 <body>
-<iframe id="frame" th:src="@{/documents/cv-english.pdf}"></iframe>
+<div id="content">
+    <iframe id="frame" th:src="@{/documents/cv-english.pdf}"></iframe>
+</div>
 
 </body>
 </html>
